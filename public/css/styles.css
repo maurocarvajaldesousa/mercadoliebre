@@ -79,7 +79,7 @@ body {
 /* -------------------- Seccion hamburguesa -------------------- */
 
 .hamburger-button {
-  background-color: #03264c;
+  background-color: #1259c3;
   color: #ffffff;
   display: block;
   max-width: 50px;
@@ -324,6 +324,10 @@ article:hover {
   color: #39b54a;
 }
 
+.form-button:hover {
+  background-color: #eac926;
+}
+
 /* -------------------- Formularios -------------------- */
 
 .form-container {
@@ -334,6 +338,11 @@ article:hover {
   border-radius: 6px;
   min-width: 300px;
   margin-bottom: 50px;
+  border-radius: 6px;
+}
+
+.form-container h3 {
+  text-align: center;
 }
 
 .form-register,
@@ -346,9 +355,10 @@ article:hover {
 }
 
 .form-control {
+  width: 100%;
   margin: 5px;
   display: flex;
-  justify-content: left;
+  justify-content: center;
 }
 
 .form-control h2 {
@@ -363,23 +373,19 @@ article:hover {
 }
 
 .form-button {
-  background-color: #03264c;
+  background-color: #1259c3;
   color: #ffffff;
   font-size: 20px;
   padding: 5px 10px;
   margin: 5px;
 }
 
-.form-button:hover {
-  background-color: #0022aa;
-}
-
-.form-botonera {
+/* .form-botonera {
   flex-basis: 100%;
   padding: 8px 8px;
   display: flex;
   justify-content: center;
-}
+} */
 
 .itemsPerfilDelUsuario {
   flex-basis: 100%;
@@ -397,24 +403,34 @@ article:hover {
   flex-direction: column;
 }
 
-input:invalid:required {
+/* input:invalid:required {
   border: solid 2px red;
 }
 
 input:valid:required {
   background-color: white;
-}
+} */
 
 .form-login {
-  background-color: ebebeb;
+  background-color: #ffffff;
+}
+.form-login input {
+  border: 0px;
+  outline: none;
+  box-shadow: 2px 2px 10px;
+  border-radius: 6px;
 }
 
-.botonera-container {
+/* .form-login input:invalid:required {
+  background-color: #666;
+} */
+
+/* .botonera-container {
   width: 100%;
   padding: 8px 8px;
   display: flex;
   justify-content: center;
-}
+} */
 
 /* Tablets */
 @media (min-width: 769px) {
@@ -484,11 +500,13 @@ input:valid:required {
     padding-bottom: 2%;
   }
 
-  /* .form-control {
-    max-width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-  } */
+  .form-container {
+    max-width: 60%;
+  }
+
+  .form-control {
+    max-width: 80%;
+  }
 }
 
 /* Desktop */
@@ -514,5 +532,13 @@ input:valid:required {
     display: flex;
     justify-content: center;
     text-align: center;
+  }
+
+  .form-container {
+    max-width: 60%;
+  }
+
+  .form-control {
+    max-width: 50%;
   }
 }
