@@ -13,8 +13,8 @@ app.use(express.static(publicPath));
 //   console.log('El servidor está corriendo en el puerto: ' + puerto)
 // );
 
-app.listen(process.env.PORT || 3000, function () {
-  console.log('El servidor está corriendo en el puerto: 3000');
+app.listen(process.env.PORT || 3001, function () {
+  console.log('El servidor está corriendo en el puerto: 3001');
 });
 
 /*
