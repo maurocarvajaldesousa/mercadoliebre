@@ -345,7 +345,6 @@ article:hover {
   text-align: center;
 }
 
-.form-register,
 .form-login {
   padding: 20px 15px;
   display: flex;
@@ -353,6 +352,46 @@ article:hover {
   justify-content: center;
   align-items: center;
 }
+
+.form-register section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-box1,
+.register-box2,
+.register-box3 {
+  width: 95%;
+  border: 2px solid white;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  margin: 10px 10px;
+}
+
+/* .register-box3 {
+  width: 95%;
+  border: 2px solid white;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+/* .form-control input {
+  border-radius: 3px;
+  margin: 5px;
+  border: 0px;
+  outline: none;
+  box-shadow: 2px 2px 10px;
+  padding: 8px 8px;
+} */
 
 .form-control {
   width: 100%;
