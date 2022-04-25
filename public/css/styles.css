@@ -353,7 +353,7 @@ article:hover {
   align-items: center;
 }
 
-.form-register section {
+.form-register {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -368,7 +368,7 @@ article:hover {
   border-radius: 6px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 10px 0;
   margin: 10px 10px;
@@ -384,14 +384,14 @@ article:hover {
   align-items: center;
 } */
 
-/* .form-control input {
+.form-control input {
   border-radius: 3px;
   margin: 5px;
   border: 0px;
   outline: none;
-  box-shadow: 2px 2px 10px;
-  padding: 8px 8px;
-} */
+  box-shadow: 1px 1px 5px;
+  padding: 10px 10px;
+}
 
 .form-control {
   width: 100%;
@@ -407,7 +407,7 @@ article:hover {
 }
 
 .form-control-boxes {
-  flex-basis: 100%;
+  flex-basis: 90%;
   padding: 8px 8px;
 }
 
